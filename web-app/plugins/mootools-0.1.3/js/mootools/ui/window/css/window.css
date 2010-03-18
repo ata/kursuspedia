@@ -1,0 +1,140 @@
+/*general*/
+.appFont {
+	font-family: "Segoe UI",Corbel,Calibri,Tahoma,"Lucida Sans Unicode",sans-serif; 
+	font-size: 11px; 
+	font-weight: bold; 
+	font-style: normal;
+	white-space: nowrap;  
+	
+}
+
+.outerBorder {
+	-moz-user-focus: normal; 
+	-moz-border-left-colors: rgb(220, 223, 228) rgb(255, 255, 255);
+	-moz-border-right-colors: rgb(133, 135, 140) rgb(167, 166, 170); 
+	-moz-border-top-colors: rgb(220, 223, 228) rgb(255, 255, 255); 
+	-moz-border-bottom-colors: rgb(133, 135, 140) rgb(167, 166, 170); 
+
+}
+
+.inlayBorder {
+	-moz-user-focus: normal; 
+	-moz-border-right-colors: rgb(220, 223, 228) rgb(255, 255, 255);
+	-moz-border-left-colors: rgb(133, 135, 140) rgb(167, 166, 170); 
+	-moz-border-bottom-colors: rgb(220, 223, 228) rgb(255, 255, 255); 
+	-moz-border-top-colors: rgb(133, 135, 140) rgb(167, 166, 170); 
+
+}
+
+.grooveBorder {
+	border-top: 2px groove ;
+	-moz-border-top-colors: rgb(167, 166, 170) rgb(255, 255, 255); 
+	/*
+	-moz-border-left-colors: rgb(167, 166, 170) rgb(255, 255, 255); 
+	-moz-border-right-colors: rgb(255, 255, 255) rgb(167, 166, 170); 
+	-moz-border-top-colors: rgb(167, 166, 170) rgb(255, 255, 255); 
+	-moz-border-bottom-colors: rgb(255, 255, 255) rgb(167, 166, 170);
+	*/
+}
+
+.template{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	left:4px;
+	display: none;
+	z-index:100;
+	background-color: #d9e7f8;
+}
+
+.wrap {
+	border: 2px outset ; 
+	background-color: rgb(235, 233, 237); 
+	color: rgb(0, 0, 0); 
+	position: absolute;
+	width: 400px; 
+	height: 300px; 
+	z-index: 200; 
+	left: 100px; 
+	top: 100px;
+	display: none;
+}
+
+
+/* window specific */
+.handle {
+	background-color: rgb(51, 94, 168); 
+	color: rgb(255, 255, 255); 
+	position: absolute;
+	width:100%;
+	height: 21px; 
+	left: 1px; 
+	right: 1px; 
+	top: 1px;
+	z-index: 300; 
+	cursor: move;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.handleTitle {
+	position: absolute;
+	white-space: nowrap; 
+	left: 5px; 
+	top: 3px; 
+	margin-right: 2px;
+	cursor: move;
+}
+
+
+/* mini buttons */
+.miniButton {
+	border: 2px outset; 
+	cursor: hand; 
+	background-color: rgb(235, 233, 237); 
+	position: absolute; 
+	width: 15px; 
+	height: 15px; 
+	right: 2px; 
+	top: 1px !important;
+	top: 4px;
+	text-align: left;
+}
+
+.miniButton img {
+	position:absolute;
+	left: 2px !important; 
+	left: 0px; 
+	top: 2px !important;
+	top: 0px;
+}
+
+/* fieldset content*/
+.innerWrap {
+	position:absolute;
+	right:1px;
+	top: 22px; 
+	width:100%;
+	height:100%;
+}
+
+.fieldsetWrap {
+	position:relative;
+	left: 1px; 
+	right: 1px; 
+	top: 1px;
+	bottom: 0px;
+}
+
+/* footer label*/
+.footerLabel {
+	font-size: 9px;
+	border: 2px inset; 
+	position:absolute;
+	width:99% !important;
+	width:100%;
+	height: 12px;
+	left: 0px;
+	right: 1px;
+	bottom: 0px;
+}

@@ -1,0 +1,45 @@
+.mootabs_title {
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 29px;
+}
+
+.mootabs_title li {
+	float: left;
+	background: url(../images/tab_off.gif) no-repeat left bottom;
+	height:29px;
+	width:85px;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	line-height: 30px;
+}
+
+.mootabs_title li.active {
+	background: url(../images/tab_on.gif) no-repeat left bottom;
+	position: relative;
+	z-index: 10;
+}
+
+.mootabs_panel {
+	display: none;
+	top: -4px;
+	padding: 5px;
+	border: 1px solid #A4C8EA;
+	z-index: 0;
+	width:100%;
+}
+
+.mootabs_panel.active {
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.mootabs_title li.over {
+	font-weight: bold;
+	cursor: hand;
+}
+

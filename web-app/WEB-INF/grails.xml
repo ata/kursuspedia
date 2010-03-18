@@ -1,0 +1,25 @@
+<grails>
+  <resources>
+    <resource>org.grails.appengine.AppEngineReloadController</resource>
+    <resource>ResourceTagLib</resource>
+    <resource>MootoolsTagLib</resource>
+    <resource>MooUiController</resource>
+    <resource>com.kursuspedia.domain.Role</resource>
+    <resource>com.kursuspedia.domain.UserGroup</resource>
+    <resource>com.kursuspedia.domain.User</resource>
+    <resource>UrlMappings</resource>
+    <resource>Config</resource>
+    <resource>BuildConfig</resource>
+    <resource>resources</resource>
+    <resource>DataSource</resource>
+    <resource>BootStrap</resource>
+    <resource>com.kursuspedia.domain.UserGroupController</resource>
+    <resource>com.kursuspedia.domain.UserController</resource>
+    <resource>com.kursuspedia.domain.RoleController</resource>
+  </resources>
+  <plugins>
+    <plugin>GormJpaGrailsPlugin</plugin>
+    <plugin>AppEngineGrailsPlugin</plugin>
+    <plugin>MootoolsGrailsPlugin</plugin>
+  </plugins>
+</grails>

@@ -1,0 +1,18 @@
+<plugin name='mootools' version='0.1.3' grailsVersion='1.1 &gt; *'>
+  <author>Ford Guo</author>
+  <authorEmail>agile.guo at gmail.com</authorEmail>
+  <title>Provides integration with the Mootools toolkit http://mootools.net, a light OO javascript framework.</title>
+  <description>Provides integration with the Mootools toolkit http://mootools.net, a light OO javascript framework.
+</description>
+  <documentation>http://grails.org/Mootools+Plugin</documentation>
+  <resources>
+    <resource>MootoolsTagLib</resource>
+    <resource>ResourceTagLib</resource>
+    <resource>MooUiController</resource>
+    <resource>UrlMappings</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>BuildConfig</resource>
+  </resources>
+  <dependencies />
+</plugin>
